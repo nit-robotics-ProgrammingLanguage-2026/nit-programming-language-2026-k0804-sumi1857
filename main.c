@@ -10,7 +10,7 @@ void reverse_bits(int *originalvalue,int *reversedvalue)
   while(workvalue>0)
   {
     resultvalue = (resultvalue << 1) | (workvalue & 1);
-    workvalue >> = 1;
+    workvalue >>= 1;
   }
   
   /*計算結果を呼び出し元へ返す*/
