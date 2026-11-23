@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*整数の2進数表現を逆順にした値を計算する*/
-void reverse_bits(int *originalvalie,int *reversedvalue)
+void reverse_bits(int *originalvalue,int *reversedvalue)
 {
   int workvalue = *originalvalue;
   int resultvalue = 0;
